@@ -1,0 +1,33 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "b2662911-8720-461d-826a-42b2d71a7e2f",
+        "subscriptionId": "36ea435c-5b36-4602-a869-dd01353ddbea",
+        "subscriptionName": "Azure for Students",
+        "tenantId": "ab840be7-206b-432c-bd22-4c20fdc1b261",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "freaksbot-dev-rg",
+        "location": "North Europe",
+        "resourceNameSuffix": "d110fa"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "b2662911-8720-461d-826a-42b2d71a7e2f",
+        "teamsAppId": "a1abaa5c-ff40-4aad-8e54-c04c7f4dee9a"
+    },
+    "fx-resource-bot": {
+        "botId": "603d36fc-ef4e-4041-a93e-60b9e05d4628",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "objectId": "e1f26ca6-83b3-4ca5-a529-6f1eeb6ce138",
+        "skuName": "B1",
+        "siteName": "freaksbot2d7ea3bot",
+        "domain": "freaksbot2d7ea3bot.azurewebsites.net",
+        "appServicePlanName": "freaksbot2d7ea3bot",
+        "resourceId": "/subscriptions/36ea435c-5b36-4602-a869-dd01353ddbea/resourceGroups/freaksbot-dev-rg/providers/Microsoft.Web/sites/freaksbot2d7ea3bot",
+        "siteEndpoint": "https://freaksbot2d7ea3bot.azurewebsites.net"
+    },
+    "fx-resource-identity": {
+        "identityName": "freaksbot2d7ea3",
+        "identityResourceId": "/subscriptions/36ea435c-5b36-4602-a869-dd01353ddbea/resourceGroups/freaksbot-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/freaksbot2d7ea3",
+        "identityClientId": "96dde44a-28c0-404a-858d-cf8b85fbd638"
+    }
+}
