@@ -133,7 +133,6 @@ class TeamsBot extends TeamsActivityHandler {
         }
       } else {
         calendarReturn.body[1].text=`Unfortunately, we do not know such a person as ${name}`;
-        calendarReturn.body[2].isVisible=false;
       }
       const card = cardTools.AdaptiveCards.declare(calendarReturn).render();
       await context.sendActivity({ attachments: [CardFactory.adaptiveCard(card)] });
