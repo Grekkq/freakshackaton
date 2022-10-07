@@ -126,7 +126,7 @@ class TeamsBot extends TeamsActivityHandler {
       var place = await axios.get(`http://bot-backend-sesi.azurewebsites.net/mydesk/${name}/`);  
       if (test.data != null) {
         calendarReturn.body[1].text=test.data;
-        if (test.data != null) {
+        if (place.data != null) {
           calendarReturn.body[2].text=`Today ${name} is available in Katowice Zabrska 19. He reserved desk: ${place.data} `;
         } else{
           calendarReturn.body[2].text=`Today ${name} works from home.`;
