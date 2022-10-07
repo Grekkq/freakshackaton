@@ -127,9 +127,9 @@ class TeamsBot extends TeamsActivityHandler {
       if (test.data != null) {
         calendarReturn.body[1].text=test.data;
         if (test.data != null) {
-          calendarReturn.body[2].text=`Today ${name} sits on desk ${place.data} in Katowice Zbraska 19`;
+          calendarReturn.body[2].text=`Today ${name} is available in Katowice Zabrska 19. He reserved desk: ${place.data} `;
         } else{
-          calendarReturn.body[2].text=`Today ${name} works from home :)`;
+          calendarReturn.body[2].text=`Today ${name} works from home.`;
         }
       } else {
         calendarReturn.body[1].text=`Unfortunately, we do not know such a person as ${name}`;
